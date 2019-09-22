@@ -84,3 +84,28 @@ body {
   padding-left: 20px;
   background-color: #CFBEAB;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  min-height: 100px;
+  padding:20px; 
+  background: #EBEBEB; 
+}
+
+footer p {
+  color: #989898;
+}
+
+footer h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #767676;
+}
+
+footer a {
+  color: #205DC8;
+  text-decoration: none;
+}
