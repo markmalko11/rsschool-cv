@@ -31,6 +31,6 @@ I had got an experience with PHP, while I was attending EPAM PHP Web Development
 ### Experience 
 I've only had some experience with HTML, CSS. Now I try to solve some coding tests on [CodeWars(https://www.codewars.com).
 ### Education 
-I finished Minsk State Linguistic University in 2012. Since then I've been working as an English teacher at school.  Also I finished  Further Training and Retraining Institute of Belarusian State Pedagogical University with the qualification of a Math Teacher. In 2017 I was attending free EPAM PHP Web Development courses, but unfortunately I haven't become a Back-End Web Developer.
+I finished Minsk State Linguistic University in 2012. Since then I've been working as an English teacher at school.  Also I finished  Further Training and Retraining Institute of Belarusian State Pedagogical University with the qualification of a Math Teacher. In 2017 I was attending free EPAM PHP Web Development training, but unfortunately I haven't become a Back-End Web Developer.
 ### English 
 I've got a B2 level of English. I've got daily practice as I'm an English teacher.

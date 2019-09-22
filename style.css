@@ -1,0 +1,160 @@
+body {
+  width: 100vw;
+  font-family: 'Playfair Display', sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(356deg, rgba(2,0,36,1) 0%, rgba(109,109,154,1) 66%, rgba(0,212,255,1) 100%);
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.wrapper .header {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 8px -8px 5px rgba(79,77,206,0.86);
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 42px -30px 20px -6px rgba(41,65,204,0.75);
+  -moz-box-shadow: 42px -30px 20px -6px rgba(41,65,204,0.75);
+  box-shadow: 42px -30px 20px -6px rgba(41,65,204,0.75);
+}
+
+.left-column {
+  width: 60%;
+  padding: 20px 0 0 20px;
+}
+
+.left-column .personal-photo img {
+  width: 100%;
+  -webkit-box-shadow: 10px -15px 20px 0px rgba(58,61,79,1);
+  -moz-box-shadow: 10px -15px 20px 0px rgba(58,61,79,1);
+  box-shadow: 10px -15px 20px 0px rgba(58,61,79,1);
+}
+
+.left-column h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+	color: #5C5052;
+}
+
+.left-column .contact {
+  border-left: 3px solid #4DB07A;
+}
+
+.left-column .contact li {
+  padding-left: 20px;
+  color:#816D6C;
+}
+
+.left-column .contact li a {
+  color: #205DC8;
+  text-decoration: none;
+}
+
+.main-information {
+  width: 100%;
+  padding: 20px;
+}
+
+.main-information h2 {
+  margin: 10px 0 10px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #5C5052;
+}
+
+.personal-info-paragraphs {
+  padding:10px;
+  border-left: 3px solid #E8603B;
+  color:#816D6C;
+  background: #f2f2f2;
+}
+
+.code pre {
+  padding-left: 20px;
+  background-color: #CFBEAB;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  min-height: 100px;
+  padding:20px; 
+  background: #EBEBEB; 
+}
+
+footer p {
+  color: #989898;
+}
+
+footer h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #767676;
+}
+
+footer a {
+  color: #205DC8;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: #FFFFFF;
+  }
+
+  .wrapper {
+    width:100vw;
+  }
+
+  .wrapper .header {
+    font-size: 2.5rem;
+    color: #5D5C88;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .left-column h2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .left-column .personal-photo img {
+    width: 80vw;
+  }
+
+  .main-section {
+    flex-direction: column;
+    width: 100%;
+    padding-right:20px;
+    box-shadow: none;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 96%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  pre {
+    padding-left: 0;
+    font-size:8px;
+  }
+}
