@@ -109,3 +109,52 @@ footer a {
   color: #205DC8;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  body {
+    background: #FFFFFF;
+  }
+
+  .wrapper {
+    width:100vw;
+  }
+
+  .wrapper .header {
+    font-size: 2.5rem;
+    color: #5D5C88;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .left-column h2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .left-column .personal-photo img {
+    width: 80vw;
+  }
+
+  .main-section {
+    flex-direction: column;
+    width: 100%;
+    padding-right:20px;
+    box-shadow: none;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 96%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  pre {
+    padding-left: 0;
+    font-size:8px;
+  }
+}
